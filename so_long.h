@@ -6,7 +6,7 @@
 /*   By: ratinax <ratinax@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 12:48:10 by ratinax           #+#    #+#             */
-/*   Updated: 2022/12/16 12:03:03 by ratinax          ###   ########.fr       */
+/*   Updated: 2022/12/16 15:33:48 by ratinax          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@
 # include <string.h>
 # include "minilibx/mlx.h"
 
-# define K_DOWN 65364
-# define K_UP 65362
-# define K_LEFT 65361
-# define K_RIGHT 65363
-# define K_ESCAPE 65307
+# define K_DOWN 1
+# define K_UP 13
+# define K_LEFT 0
+# define K_RIGHT 2
+# define K_ESCAPE 53
 
 typedef struct s_amount
 {

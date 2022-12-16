@@ -6,7 +6,7 @@
 /*   By: ratinax <ratinax@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 10:27:12 by tibernot          #+#    #+#             */
-/*   Updated: 2022/12/16 14:53:03 by ratinax          ###   ########.fr       */
+/*   Updated: 2022/12/16 15:19:14 by ratinax          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ int	key_handle(int keycode, t_game *g)
 		free_array(g->str, 1);
 		exit(0);
 	}
+	ft_printf("--%d--\n", keycode);
 	return (0);
 }
 

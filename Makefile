@@ -6,10 +6,11 @@
 #    By: ratinax <ratinax@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/08 14:46:33 by tibernot          #+#    #+#              #
-#    Updated: 2022/12/16 14:51:18 by ratinax          ###   ########.fr        #
+#    Updated: 2022/12/16 15:33:05 by ratinax          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+#Changing variables
 NAME = so_long
 
 HEADER = get_next_line.h \
@@ -66,4 +67,4 @@ fclean : clean
 
 re : fclean	all
 
-.PHONY: all re fclean clean makelibft
+.PHONY: all re fclean clean makelibft makemlx
